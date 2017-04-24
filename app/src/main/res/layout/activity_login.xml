@@ -39,7 +39,8 @@
         android:layout_below="@+id/editTextPassword"
         android:layout_alignParentStart="true"
         android:layout_marginTop="53dp"
-        android:id="@+id/buttonLogin" />
+        android:id="@+id/buttonLogin"
+        android:onClick="onClick" />
 
     <Button
         android:text="Create New User"
@@ -48,5 +49,6 @@
         android:id="@+id/buttonNewUser"
         android:layout_alignBaseline="@+id/buttonLogin"
         android:layout_alignBottom="@+id/buttonLogin"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="onClick" />
 </RelativeLayout>

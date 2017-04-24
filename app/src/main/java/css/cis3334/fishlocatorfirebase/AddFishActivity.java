@@ -22,6 +22,7 @@ public class AddFishActivity extends AppCompatActivity {
     Double lattitude, longitude;
     FishFirebaseData fishDataSource;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

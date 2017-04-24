@@ -7,6 +7,10 @@
 
     <uses-feature android:name="android.hardware.location.gps" />
 
+    <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyA6bFgiMfSpwi5w2HlXQhohqd6d6R4j6OU" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
